@@ -11,7 +11,7 @@ Python
 
 - Write inline documentation strings
 - Ensure that your documentation is compatible with the Sphinx tool
-- Include an example that is compatible with Docstest
+- Include an example that is compatible with Doctest
 - Ensure that you include type annotations
 - Document the return values
 - Document any possible exceptions that are raised in the body of the function
@@ -22,7 +22,7 @@ Racket
 - You MUST write your documentation in #lang scribble
 - Include example usage of defined functions macros and modules
 - Prefer using the defproc or related forms for documenting functions
-- Prefer using the defform or reslated forms for documenting macros or
+- Prefer using the defform or related forms for documenting macros or
   other syntax extensions
 - Include an example using scribble/example
 
@@ -42,6 +42,6 @@ Emacs Lisp
 - Make sure, in particular, to have two spaces after a period.
 - The first line of a docstring should be a complete sentence
 - Include an example usage of the function or macro.
-- Do NOT include whitespace at the end of the stirng
+- Do NOT include whitespace at the end of the string
 - When documenting a procedure or macro make sure that each argument
   occurs once in ALL-CAPS in the documentation string
